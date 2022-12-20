@@ -13,6 +13,7 @@ export const {
   theme: {
     colors: {
       white: '#fff',
+      black: '#000000',
 
       gray900: '#121214',
       gray800: '#202024',
@@ -22,9 +23,10 @@ export const {
       green200: '#2f9e41',
       green300: '#00b37e',
 
-      green: '#2f9e41',
-      red: '#cd191e',
-      black: '#000000',
+      greenIFCE: '#2f9e41',
+      redIFCE: '#cd191e',
+
+      blue600: '#0284c7',
 
       zinc800: '#27272a',
     },

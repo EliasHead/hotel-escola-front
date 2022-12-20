@@ -37,7 +37,7 @@ const line3 = keyframes({
 })
 
 export const Header = styled('header', {
-  backgroundColor: '$zinc800',
+  backgroundColor: '$greenIFCE',
   color: '$white',
   width: '100%',
   position: 'sticky',
@@ -73,26 +73,26 @@ export const BurguerContainer = styled('div', {
 
   '&.active': {
     ':nth-child(1)': {
-      animation: `${line1Close} 1s forwards`,
+      animation: `${line1Close} 0.2s forwards`,
     },
     ':nth-child(2)': {
-      animation: `${line2Close} 1s forwards`,
+      animation: `${line2Close} 0.2s forwards`,
     },
     ':nth-child(3)': {
-      animation: `${line3Close} 1s forwards`,
+      animation: `${line3Close} 0.2s forwards`,
     },
   },
 
   ':nth-child(1)': {
-    animation: `${line1} 1s forwards`,
+    animation: `${line1} 0.2s forwards`,
   },
 
   ':nth-child(2)': {
-    animation: `${line2} 1s forwards`,
+    animation: `${line2} 0.2s forwards`,
   },
 
   ':nth-child(3)': {
-    animation: `${line3} 1s forwards`,
+    animation: `${line3} 0.2s forwards`,
   },
 })
 
@@ -106,7 +106,6 @@ export const BurguerLine = styled('div', {
 
 export const LogoLink = styled(Link, {
   height: '100%',
-  color: '#61DBFB',
   marginRight: '10px',
 
   display: 'flex',
@@ -114,7 +113,6 @@ export const LogoLink = styled(Link, {
 
   span: {
     marginLeft: '10px',
-    fontWeight: '700',
     fontSize: '2rem',
     lineHeight: '2rem',
   },
@@ -131,7 +129,7 @@ export const NavMenuList = styled('div', {
   padding: '24px 16px',
   transition: 'all 0.2s',
   minHeight: 'calc(100vh - 60px)',
-  backgroundColor: '$zinc800',
+  backgroundColor: '$greenIFCE',
 
   '&.active': {
     right: 0,
