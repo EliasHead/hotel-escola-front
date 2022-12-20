@@ -27,7 +27,7 @@ export function Navbar() {
   ]
 
   return (
-    <Header color="white">
+    <Header>
       <NavbarContainer>
         <LogoLink href="/">
           <Image

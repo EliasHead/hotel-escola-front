@@ -75,11 +75,11 @@ export const Header = styled('header', {
           },
         },
       },
-
-      defaultVariants: {
-        color: 'white',
-      },
     },
+  },
+
+  defaultVariants: {
+    color: 'white',
   },
 })
 
@@ -136,7 +136,6 @@ export const BurguerContainer = styled('div', {
 export const BurguerLine = styled('div', {
   width: '40px',
   height: '4px',
-  // backgroundColor: 'red',
   borderRadius: '2px',
   boxShadow: '0px 0px 4px #555',
 })
