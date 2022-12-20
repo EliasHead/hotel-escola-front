@@ -44,6 +44,43 @@ export const Header = styled('header', {
   zIndex: 30,
   top: 0,
   left: 0,
+
+  variants: {
+    color: {
+      green: {
+        backgroundColor: '$greenIFCE',
+        color: '$white',
+
+        'nav > :nth-child(2)': {
+          ':nth-child(n)': {
+            backgroundColor: '$white',
+          },
+        },
+
+        'nav > :nth-child(3)': {
+          backgroundColor: '$greenIFCE',
+        },
+      },
+
+      white: {
+        backgroundColor: '$white',
+        color: '$black',
+        img: {
+          filter: 'invert(100%)',
+        },
+
+        'nav > :nth-child(2)': {
+          ':nth-child(n)': {
+            backgroundColor: '$black',
+          },
+        },
+      },
+
+      defaultVariants: {
+        color: 'white',
+      },
+    },
+  },
 })
 
 export const NavbarContainer = styled('nav', {
@@ -99,7 +136,7 @@ export const BurguerContainer = styled('div', {
 export const BurguerLine = styled('div', {
   width: '40px',
   height: '4px',
-  backgroundColor: 'white',
+  // backgroundColor: 'red',
   borderRadius: '2px',
   boxShadow: '0px 0px 4px #555',
 })
@@ -129,7 +166,6 @@ export const NavMenuList = styled('div', {
   padding: '24px 16px',
   transition: 'all 0.2s',
   minHeight: 'calc(100vh - 60px)',
-  backgroundColor: '$greenIFCE',
 
   '&.active': {
     right: 0,
