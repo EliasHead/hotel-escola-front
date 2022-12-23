@@ -3,31 +3,31 @@ import { Slider } from '../components/Slider'
 export default function Home() {
   const imgs = [
     {
-      url: '/../public/hotel/h1.jpeg',
+      url: '/hotel/h1.jpeg',
     },
     {
-      url: '/../public/hotel/h2.jpeg',
+      url: '/hotel/h2.jpeg',
     },
     {
-      url: '/../public/hotel/h3.jpeg',
+      url: '/hotel/h3.jpeg',
     },
     {
-      url: '/../public/hotel/h4.jpeg',
+      url: '/hotel/h4.jpeg',
     },
     {
-      url: '/../public/hotel/h5.jpeg',
+      url: '/hotel/h5.jpeg',
     },
     {
-      url: '/../public/hotel/h6.jpeg',
+      url: '/hotel/h6.jpeg',
     },
     {
-      url: '/../public/hotel/h7.jpeg',
+      url: '/hotel/h7.jpeg',
     },
     {
-      url: '/../public/hotel/h8.jpeg',
+      url: '/hotel/h8.jpeg',
     },
     {
-      url: '/../public/hotel/h9.jpeg',
+      url: '/hotel/h9.jpeg',
     },
     {
       url: '/../public/hotel/h10.jpeg',
