@@ -30,7 +30,7 @@ export default function Home() {
       url: '/hotel/h9.jpeg',
     },
     {
-      url: '/../public/hotel/h10.jpeg',
+      url: '/hotel/h10.jpeg',
     },
   ]
 
