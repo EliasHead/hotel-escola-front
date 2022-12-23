@@ -10,6 +10,7 @@ export const SwiperS = styled(Swiper, {
   '@bp4': {
     maxWidth: '1440px',
     width: '80%',
+    height: '60vh',
   },
 })
 
@@ -27,16 +28,14 @@ export const SwiperSlideS = styled(SwiperSlide, {
   },
 
   '@bp4': {
-    width: '100%',
-    height: '100%',
     margin: '0 auto',
     padding: '1rem',
 
     img: {
       objectFit: 'cover',
-      borderRadius: '0.8rem',
+      borderRadius: '2rem',
       width: '90%',
-      height: '90%',
+      height: '100%',
     },
   },
 })
