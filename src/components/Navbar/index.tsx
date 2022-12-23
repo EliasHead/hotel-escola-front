@@ -27,7 +27,7 @@ export function Navbar() {
   ]
 
   return (
-    <Header>
+    <Header color="green">
       <NavbarContainer>
         <LogoLink href="/">
           <Image
@@ -49,12 +49,6 @@ export function Navbar() {
           <BurguerLine></BurguerLine>
           <BurguerLine></BurguerLine>
         </BurguerContainer>
-
-        {/* <NavLink>
-          <ALink href="/docs">Docs</ALink>
-          <ALink href="/learn">Tutorial</ALink>
-          <ALink href="/blog">Blog</ALink>
-        </NavLink> */}
 
         <NavMenuList className={`${navActive ? 'active' : ''} `}>
           {MENU_LIST.map((menu, idx) => (

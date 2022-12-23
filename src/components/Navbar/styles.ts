@@ -137,7 +137,7 @@ export const BurguerLine = styled('div', {
   width: '40px',
   height: '4px',
   borderRadius: '2px',
-  boxShadow: '0px 0px 4px #555',
+  // boxShadow: '0px 0px 4px #555',
 })
 
 export const LogoLink = styled(Link, {

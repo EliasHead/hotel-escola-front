@@ -38,8 +38,9 @@ export const {
     },
   },
   media: {
-    bp1: '(min-width: 640px)',
-    bp2: '(min-width: 768px)',
-    bp3: '(min-width: 1024px)',
+    bp1: '(min-width: 640px)', // large mobile
+    bp2: '(min-width: 768px)', // tablet
+    bp3: '(min-width: 1024px)', // laptop
+    bp4: '(min-width: 1144px)', // laptop large
   },
 })
