@@ -7,6 +7,14 @@ export const SwiperS = styled(Swiper, {
   height: '40vh',
   margin: '0 auto',
 
+  '@bp2': {
+    // table view TODO
+    margin: '0 auto',
+    maxWidth: '768px',
+    width: '90%',
+    height: '60vh',
+  },
+
   '@bp4': {
     maxWidth: '1440px',
     width: '80%',
@@ -23,8 +31,21 @@ export const SwiperSlideS = styled(SwiperSlide, {
     objectFit: 'cover',
     width: 'inherit',
     height: '100%',
-    padding: '1rem',
+    padding: '1rem 0',
     borderRadius: '2rem',
+  },
+
+  '@bp2': {
+    margin: '0 auto',
+    img: {
+      padding: '1rem',
+    },
+  },
+
+  '@bp3': {
+    img: {
+      padding: '1rem',
+    },
   },
 
   '@bp4': {
@@ -36,6 +57,7 @@ export const SwiperSlideS = styled(SwiperSlide, {
       borderRadius: '2rem',
       width: '90%',
       height: '100%',
+      padding: '1rem',
     },
   },
 })
