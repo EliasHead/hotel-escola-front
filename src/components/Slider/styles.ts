@@ -23,7 +23,7 @@ export const SwiperSlideS = styled(SwiperSlide, {
     objectFit: 'cover',
     width: 'inherit',
     height: '100%',
-    padding: '1rem',
+    padding: '1rem 0',
     borderRadius: '2rem',
   },
 
