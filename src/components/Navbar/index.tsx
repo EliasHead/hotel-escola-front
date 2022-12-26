@@ -19,7 +19,7 @@ export function Navbar() {
 
   const MENU_LIST = [
     { text: 'Páginal Inicial', href: '/' },
-    { text: 'Sobre Nós', href: '/sobre' },
+    // { text: 'Sobre Nós', href: '/sobre' },
     { text: 'Acomodações', href: '/acomodacoes' },
     { text: 'Tarifas', href: '/tarifas' },
     { text: 'Regulamento', href: '/regulamento' },

@@ -77,5 +77,7 @@ export const {
     bp2: '(min-width: 768px)', // tablet
     bp3: '(min-width: 1024px)', // laptop
     bp4: '(min-width: 1144px)', // laptop large
+    bp5: '(max-width: 640px)',
+    bp6: '(max-width: 960px)',
   },
 })
