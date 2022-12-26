@@ -18,7 +18,7 @@ export function Navbar() {
   const [activeIdx, setActiveIdx] = useState(-1)
 
   const MENU_LIST = [
-    { text: 'Páginal Inicial', href: '/' },
+    { text: 'Principal', href: '/' },
     // { text: 'Sobre Nós', href: '/sobre' },
     { text: 'Acomodações', href: '/acomodacoes' },
     { text: 'Tarifas', href: '/tarifas' },

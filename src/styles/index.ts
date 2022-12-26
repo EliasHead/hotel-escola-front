@@ -73,10 +73,10 @@ export const {
     },
   },
   media: {
-    bp1: '(min-width: 640px)', // large mobile
-    bp2: '(min-width: 768px)', // tablet
-    bp3: '(min-width: 1024px)', // laptop
-    bp4: '(min-width: 1144px)', // laptop large
+    mobileL: '(min-width: 640px)', // large mobile
+    tablet: '(min-width: 768px)', // tablet
+    laptop: '(min-width: 1024px)', // laptop
+    laptopL: '(min-width: 1440px)', // laptop large
     bp5: '(max-width: 640px)',
     bp6: '(max-width: 960px)',
   },
