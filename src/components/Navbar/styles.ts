@@ -88,12 +88,12 @@ export const NavbarContainer = styled('nav', {
   alignItems: 'center',
   justifyContent: 'space-between',
 
-  padding: '0 20px',
+  padding: '0 1.6rem',
   margin: '0 auto',
   height: '6rem',
 
-  '@bp1': {
-    width: '90%',
+  '@tablet': {
+    padding: '0 3.2rem',
   },
 })
 
@@ -104,7 +104,7 @@ export const BurguerContainer = styled('div', {
   flexDirection: 'column',
   position: 'relative',
 
-  '@bp2': {
+  '@laptop': {
     display: 'none',
   },
 
@@ -170,7 +170,7 @@ export const NavMenuList = styled('div', {
     right: 0,
   },
 
-  '@bp2': {
+  '@laptop': {
     position: 'unset',
     flexDirection: 'row',
     height: '100%',
@@ -179,10 +179,4 @@ export const NavMenuList = styled('div', {
     columnGap: '24px',
     alignItems: 'center',
   },
-})
-
-export const ALink = styled(Link, {
-  color: '$white',
-  fontWeight: '300',
-  fontSize: '2rem',
 })
