@@ -40,7 +40,7 @@ export const Box = styled('div', {
   },
 
   '@laptopL': {
-    maxWidth: '128rem',
+    maxWidth: '102.4rem',
 
     p: {
       fontSize: '2.2rem',

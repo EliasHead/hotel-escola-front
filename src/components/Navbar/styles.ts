@@ -94,6 +94,7 @@ export const NavbarContainer = styled('nav', {
 
   '@tablet': {
     padding: '0 3.2rem',
+    maxWidth: '102.4rem',
   },
 })
 
