@@ -5,7 +5,11 @@ export const Box = styled('div', {
   margin: '0 auto',
   padding: '0 1.6rem',
 
-  'p, h3, h4, hr, ul, li': {
+  li: {
+    margin: '0 0 1.6rem 1.5rem',
+  },
+
+  'p, h3, h4, hr': {
     margin: '0 0 1.6rem',
   },
 
