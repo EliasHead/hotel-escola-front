@@ -5,11 +5,15 @@ export const Box = styled('div', {
   margin: '0 auto',
   padding: '0 1.6rem',
 
+  li: {
+    margin: '0 0 1.6rem 1.5rem',
+  },
+
   'p, h3, h4, hr': {
     margin: '0 0 1.6rem',
   },
 
-  p: {
+  'p, li': {
     fontSize: '1.6rem',
   },
 
@@ -20,7 +24,7 @@ export const Box = styled('div', {
   '@tablet': {
     padding: '0 3.2rem',
 
-    p: {
+    'p, li': {
       fontSize: '1.8rem',
     },
 
@@ -30,7 +34,7 @@ export const Box = styled('div', {
   },
 
   '@laptop': {
-    p: {
+    'p, li': {
       fontSize: '2rem',
     },
 
@@ -42,7 +46,7 @@ export const Box = styled('div', {
   '@laptopL': {
     maxWidth: '102.4rem',
 
-    p: {
+    'p, li': {
       fontSize: '2.2rem',
     },
 
