@@ -85,6 +85,10 @@ export const Box = styled('div', {
 })
 
 export const Map = styled('div', {
+  iframe: {
+    width: '100%',
+  },
+
   '@tablet': {
     display: 'flex',
     flexDirection: 'column',
