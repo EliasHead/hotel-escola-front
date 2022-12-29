@@ -17,6 +17,46 @@ export const globalStyles = globalCss({
     height: '100vh',
     // color: '$gray100',
     '-webkit-font-smoothing': 'antialiased',
+
+    p: {
+      fontSize: '1.6rem',
+
+      '@tablet': {
+        fontSize: '1.8rem',
+      },
+
+      '@laptop': {
+        fontSize: '2rem',
+      },
+
+      '@laptopL': {
+        fontSize: '2.4rem',
+      },
+    },
+
+    h1: {
+      fontSize: '3.2rem',
+
+      '@tablet': {
+        fontSize: '4.8rem',
+      },
+
+      '@laptop': {
+        fontSize: '6rem',
+      },
+    },
+
+    h2: {
+      fontSize: '2.4rem',
+
+      '@tablet': {
+        fontSize: '3.6rem',
+      },
+
+      '@laptop': {
+        fontSize: '4.8rem',
+      },
+    },
   },
 
   'body, input, textarea, button': {
