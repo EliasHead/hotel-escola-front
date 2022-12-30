@@ -30,8 +30,6 @@ type DataType = {
 export default function Tarifas({
   data,
 }: InferGetStaticPropsType<typeof getStaticProps>) {
-  console.log('aqui', data)
-
   const tarifas = data.tarifas
   const periodos = data.periodos_indisponiveis
 
