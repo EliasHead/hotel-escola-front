@@ -5,6 +5,7 @@ import {
   NavMenuList,
   BurguerContainer,
   BurguerLine,
+  Button,
 } from './styles'
 
 import Image from 'next/image'
@@ -62,6 +63,9 @@ export function Navbar() {
               <NavItem active={activeIdx === idx} {...menu} />
             </div>
           ))}
+          <Button href="https://admin.hotelescola.ifce.edu.br/users/sign_in">
+            RESERVE AQUI
+          </Button>
         </NavMenuList>
       </NavbarContainer>
     </Header>
