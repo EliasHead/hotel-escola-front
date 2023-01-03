@@ -85,6 +85,8 @@ export const Box = styled('div', {
 })
 
 export const Map = styled('div', {
+  marginBottom: '1.6rem',
+
   iframe: {
     width: '100%',
   },
