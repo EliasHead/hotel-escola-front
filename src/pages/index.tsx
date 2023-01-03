@@ -73,7 +73,6 @@ export default function Home() {
         pessoas). Não esqueça de trazer sua rede para desfrutar da bela paisagem
         da nossa varanda.
       </p>
-      <br />
     </Container>
   )
 }

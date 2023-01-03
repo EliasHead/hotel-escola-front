@@ -71,7 +71,6 @@ export default function Regulamento() {
         O hóspede, no entanto, tem o prazo de até 30 dias para utilizar a
         hospedagem, mediante agendamento prévio.
       </p>
-      <br />
     </Container>
   )
 }

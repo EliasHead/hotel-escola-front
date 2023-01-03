@@ -2,7 +2,7 @@ import { styled } from '../../styles'
 
 export const FooterContainer = styled('div', {
   width: '100%',
-  margin: '0 auto',
+  margin: '4rem auto 0',
   padding: '0 0',
   backgroundColor: '$greenIFCE',
   borderTop: '1px solid $greenIFCE',

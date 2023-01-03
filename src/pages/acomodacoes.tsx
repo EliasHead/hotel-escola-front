@@ -41,7 +41,6 @@ export default function Learn() {
         chuveiro elétrico. A classificação para as uhs do Hotel Escola é: triplo
         Sugiro então: triplo para a configuração e stander para a categoria.
       </p>
-      <br />
     </Container>
   )
 }
