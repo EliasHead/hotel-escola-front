@@ -7,21 +7,9 @@ export const SwiperS = styled(Swiper, {
   height: '40vh',
   margin: '0 auto',
 
-  '@bp2': {
+  '@tablet': {
     // table view TODO
     margin: '0 auto',
-    width: '90%',
-    height: '60vh',
-  },
-
-  '@bp3': {
-    // table view TODO
-    margin: '0 auto',
-    width: '90%',
-    height: '60vh',
-  },
-
-  '@bp4': {
     width: '100%',
     height: '60vh',
   },
