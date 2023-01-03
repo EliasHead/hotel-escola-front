@@ -45,7 +45,6 @@ export const ContatoContainer = styled('div', {
   justifyContent: 'center',
   flexDirection: 'column',
   gap: '2rem',
-  height: '100vh',
 
   h3: {
     fontSize: '$2xl',
