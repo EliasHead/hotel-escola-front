@@ -181,3 +181,17 @@ export const NavMenuList = styled('div', {
     alignItems: 'center',
   },
 })
+
+export const Button = styled(Link, {
+  backgroundColor: '$white',
+  textAlign: 'center',
+  color: '$greenIFCE',
+  border: '1px solid $white',
+  padding: '0.3rem 1rem',
+  margin: 0,
+  fontWeight: '$bold',
+  fontSize: '$md',
+  borderRadius: '0.5rem',
+  cursor: 'pointer',
+  whiteSpace: 'nowrap',
+})

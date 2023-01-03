@@ -45,7 +45,6 @@ export const ContatoContainer = styled('div', {
   justifyContent: 'center',
   flexDirection: 'column',
   gap: '2rem',
-  height: '100vh',
 
   h3: {
     fontSize: '$2xl',
@@ -85,6 +84,8 @@ export const Box = styled('div', {
 })
 
 export const Map = styled('div', {
+  marginBottom: '1.6rem',
+
   iframe: {
     width: '100%',
   },
