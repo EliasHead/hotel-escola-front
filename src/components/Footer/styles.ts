@@ -15,6 +15,11 @@ export const Content = styled('div', {
   margin: '0 auto',
   padding: '0 1rem',
   maxWidth: '1024px',
+
+  display: 'flex',
+  justifyContent: 'center',
+  alignItems: 'center',
+  gap: '4rem',
 })
 
 export const FooterBox = styled('footer', {
@@ -26,5 +31,14 @@ export const FooterBox = styled('footer', {
   span: {
     color: '$white',
     fontSize: '$lg',
+  },
+})
+
+export const SocialBox = styled('div', {
+  display: 'none',
+
+  '@tablet': {
+    display: 'flex',
+    gap: '10px',
   },
 })
