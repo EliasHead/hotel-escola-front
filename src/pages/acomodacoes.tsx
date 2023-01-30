@@ -24,6 +24,21 @@ export default function Learn() {
     {
       url: '/quartos/q7.jpg',
     },
+    {
+      url: '/quartos/q8.jpeg',
+    },
+    {
+      url: '/quartos/q9.jpeg',
+    },
+    {
+      url: '/quartos/q10.jpeg',
+    },
+    {
+      url: '/quartos/q11.jpeg',
+    },
+    {
+      url: '/quartos/q12.jpeg',
+    },
   ]
   return (
     <Container>

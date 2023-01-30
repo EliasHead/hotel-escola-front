@@ -8,6 +8,7 @@ export const HeadContato = styled('div', {
   '@laptop': {
     flexDirection: 'row',
   },
+  marginTop: '6rem',
 })
 
 export const Text = styled('div', {
@@ -18,7 +19,7 @@ export const Text = styled('div', {
   alignContent: 'center',
 
   h1: {
-    margin: '1.6rem 0 1.6rem',
+    margin: '2.4rem 0 1.6rem',
   },
 
   h2: {

@@ -7,7 +7,6 @@ export const FooterContainer = styled('div', {
   backgroundColor: '$greenIFCE',
   borderTop: '1px solid $greenIFCE',
   borderBottom: '1px solid $greenIFCE',
-  overflow: 'hidden',
 })
 
 export const Content = styled('div', {

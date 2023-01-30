@@ -1,16 +1,9 @@
-import {
-  Buildings,
-  EnvelopeOpen,
-  EnvelopeSimple,
-  Globe,
-  MapPin,
-} from 'phosphor-react'
+import { Buildings, EnvelopeSimple, Globe, MapPin } from 'phosphor-react'
 import { Container } from '../components/Container'
 import {
   Box,
   ContatoContainer,
   HeadContato,
-  Icon,
   Text,
   Map,
 } from '../styles/pages/contato'
@@ -23,9 +16,6 @@ export default function Contato() {
           <h1>Entre em contato conosco</h1>
           <h2>Sua opinião é importante para nós.</h2>
         </Text>
-        <Icon>
-          <EnvelopeOpen size={60} color="#000" />
-        </Icon>
       </HeadContato>
       <ContatoContainer>
         <div>
