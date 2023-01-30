@@ -21,7 +21,7 @@ export default function Contato() {
       <HeadContato>
         <Text>
           <h1>Entre em contato conosco</h1>
-          <h2>Sua opnião é importante para nós.</h2>
+          <h2>Sua opinião é importante para nós.</h2>
         </Text>
         <Icon>
           <EnvelopeOpen size={60} color="#000" />

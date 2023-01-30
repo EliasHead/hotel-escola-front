@@ -6,6 +6,21 @@ export default function Regulamento() {
     <Container>
       <h3 style={{ marginTop: '1.6rem' }}>Regulamento</h3>
       <ul>
+        <li>Horário do Check-in: a partir de 14h;</li>
+        <li>
+          Horário do Check-out: 12h (meio-dia); Sujeito a cobrança de diária
+          adicional após o horário.
+        </li>
+        <li>
+          Horário de Funcionamento da Recepção: Segunda:7h às 15h / Terça e
+          Quarta: 8h às 17h / Quinta: 7h às 20h Sexta e Sábado: 7h às 21h /
+          Domingo: 7h às 16h
+        </li>
+        <li>
+          Horário para solicitar arrumação da UH (unidade habitacional): até às
+          10h
+        </li>
+        <li>O valor da diária NÃO está incluso café da manhã;</li>
         <li>
           Não é permitido transitar nas dependências do Hotel Escola com traje
           de banho, exceto na área da piscina.
