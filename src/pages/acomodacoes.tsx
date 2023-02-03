@@ -24,22 +24,54 @@ export default function Learn() {
     {
       url: '/quartos/q7.jpg',
     },
+    {
+      url: '/quartos/q8.jpeg',
+    },
+    {
+      url: '/quartos/q9.jpeg',
+    },
+    {
+      url: '/quartos/q10.jpeg',
+    },
+    {
+      url: '/quartos/q11.jpeg',
+    },
+    {
+      url: '/quartos/q12.jpeg',
+    },
   ]
   return (
     <Container>
       <Slider imgs={imgs}></Slider>
-      <h3>Acomodações</h3>
+      <h3>ACOMODAÇÕES</h3>
       <p>
-        As 20 unidades habitacionais (uhs) estruturalmente compõem-se em quarto
-        e banheiro, sendo que 17 uhs possuem varanda com vista para o jardim
-        frontal do hotel escola. Existem 03 uhs que se diferenciam das demais em
-        espaço. Cada uh dispõe de 03 leitos solteiro (cama box), enxoval com
-        lençóis 250 fios e cobre leito, travesseiro (01 por leito), guarda-roupa
-        embutido em 19 uhs, televisão LCD 32’’, ventilador de pé (se solicitado,
-        o item não ficará presente na uh), frigobar, diretório com normas e
-        procedimentos do hotel, banheiro com enxoval completo de toalhas e
-        chuveiro elétrico. A classificação para as uhs do Hotel Escola é: triplo
-        Sugiro então: triplo para a configuração e stander para a categoria.
+        <strong>Configuração padrão: Triplo</strong>
+      </p>
+      <p>
+        <strong>Categoria: Standard</strong>
+      </p>
+      <p>Nossas unidades habitacionais oferecem: </p>
+      <ul>
+        <li>Banheiro com chuveiro elétrico.</li>
+        <li>Vista para o jardim</li>
+        <li>Guarda-roupa</li>
+        <li>Televisão LCD 32’’</li>
+        <li>Frigobar</li>
+        <li>Cama box com enxoval completo (lençol, edredom e travesseiro)</li>
+      </ul>
+      <h3>
+        <strong>OBS:</strong>
+      </h3>
+      <ul>
+        <li>As Uh’s NÃO possuem ar condicionado;</li>
+        <li>
+          Os banheiros NÃO possuem amenities (pequenos sabonetes e mini frascos
+          de xampu e condicionador) e nem secador de cabelo.
+        </li>
+      </ul>
+      <p>
+        Cada acomodação dispõe de 03 leitos solteiro (cama box), enxoval com
+        lençóis 250 fios e cobre leito, e travesseiro (01 por leito).
       </p>
     </Container>
   )

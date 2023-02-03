@@ -2,11 +2,11 @@ import { styled } from '../../styles'
 
 export const TerifasContainer = styled('div', {
   'h2, hr, table': {
-    margin: '0 0 1.6rem',
+    margin: '0 0 4rem',
   },
 
   h1: {
-    margin: '1.6rem 0 0rem',
+    margin: '6rem 0 0rem',
   },
 })
 
