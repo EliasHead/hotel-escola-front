@@ -1,4 +1,12 @@
-import { Buildings, EnvelopeSimple, Globe, MapPin } from 'phosphor-react'
+// import Link from 'next/link'
+import {
+  Buildings,
+  EnvelopeSimple,
+  Globe,
+  MapPin,
+  Phone,
+  WhatsappLogo,
+} from 'phosphor-react'
 import { Container } from '../components/Container'
 import {
   Box,
@@ -59,6 +67,26 @@ export default function Contato() {
               <strong>Website</strong>
               <br />
               www.hotelescola.ifce.edu.br
+            </p>
+          </Box>
+          <Box>
+            <div>
+              <WhatsappLogo size={32} />
+            </div>
+            <p>
+              <strong>Whatsapp</strong>
+              <br />
+              (85) 99409-8657
+            </p>
+          </Box>
+          <Box>
+            <div>
+              <Phone size={32} />
+            </div>
+            <p>
+              <strong>Telefone</strong>
+              <br />
+              (85) 34012224
             </p>
           </Box>
         </div>

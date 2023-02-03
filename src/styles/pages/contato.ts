@@ -8,7 +8,6 @@ export const HeadContato = styled('div', {
   '@laptop': {
     flexDirection: 'row',
   },
-  marginTop: '6rem',
 })
 
 export const Text = styled('div', {
@@ -54,7 +53,6 @@ export const ContatoContainer = styled('div', {
 
   '@laptop': {
     flexDirection: 'row',
-    height: '50vh',
   },
 })
 
