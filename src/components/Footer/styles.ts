@@ -26,10 +26,13 @@ export const FooterBox = styled('footer', {
   justifyContent: 'center',
   alignItems: 'center',
   height: '48px',
+  color: '$white',
+  fontSize: '$md',
 
-  span: {
-    color: '$white',
-    fontSize: '$lg',
+  '@tablet': {
+    span: {
+      fontSize: '$lg',
+    },
   },
 })
 
