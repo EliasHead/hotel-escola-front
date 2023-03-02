@@ -34,7 +34,7 @@ export default function Regulamento() {
         <li>
           <strong>OBS:</strong> As Uh’s NÃO possuem ar condicionado; Os
           banheiros NÃO possuem amenities (pequenos sabonetes e mini frascos de
-          xampu e condicionador) e nem secador de cabelo.
+          shampoo e condicionador) e nem secador de cabelo.
         </li>
         <li>
           O Hotel disponibiliza wifi gratuita, porém não se responsabiliza por
