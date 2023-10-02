@@ -12,11 +12,7 @@ export default function Regulamento() {
           Horário do Check-out: 12h (meio-dia); Sujeito a cobrança de diária
           adicional após o horário.
         </li>
-        <li>
-          Horário de Funcionamento da Recepção: Segunda:7h às 15h / Terça e
-          Quarta: 8h às 17h / Quinta: 7h às 20h Sexta e Sábado: 7h às 21h /
-          Domingo: 7h às 16h
-        </li>
+        <li>Horário de Funcionamento da Recepção: 7:00 às 19:00</li>
         <li>
           Horário para solicitar arrumação da UH (unidade habitacional): até às
           10h

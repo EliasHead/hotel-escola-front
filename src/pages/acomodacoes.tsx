@@ -66,7 +66,7 @@ export default function Learn() {
         <li>As Uh’s NÃO possuem ar condicionado;</li>
         <li>
           Os banheiros NÃO possuem amenities (pequenos sabonetes e mini frascos
-          de xampu e condicionador) e nem secador de cabelo.
+          de shampoo e condicionador) e nem secador de cabelo.
         </li>
       </ul>
       <p>

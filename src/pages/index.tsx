@@ -67,10 +67,10 @@ export default function Home() {
         <p>
           <strong>Horários de atendimento da recepção:</strong>{' '}
         </p>
-        <p>Segunda: 7h às 15h</p>
-        <p>Terça a Quarta 8h às 17h.</p>
+        <p>7:00 às 19:00</p>
+        {/* <p>Terça a Quarta 8h às 17h.</p>
         <p>Quinta 7h às 20h.</p>
-        <p>Sexta e Sábado 7h às 21h.</p>
+        <p>Sexta e Sábado 7h às 21h.</p> */}
         <p>
           Horário para solicitar arrumação da UH (Unidade habitacional): Até às
           10h
